@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117392B84A57CF7069E9F3D3 /* Pods_Gramophone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BFB059E6DD3445AB6B2C70 /* Pods_Gramophone.framework */; };
+		5A053D78AA7F659C65CCF365 /* Pods_GramophoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B848B92D8B0EEA69BA39A8F /* Pods_GramophoneTests.framework */; };
+		84A0B44221F73C6600E11E3F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0B44121F73C6600E11E3F /* Onboarding.storyboard */; };
+		84A0B44721F73C9500E11E3F /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0B44421F73C9500E11E3F /* WalkthroughPageViewController.swift */; };
+		84A0B44821F73C9500E11E3F /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0B44521F73C9500E11E3F /* WalkthroughViewController.swift */; };
+		84A0B44921F73C9500E11E3F /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0B44621F73C9500E11E3F /* WalkthroughContentViewController.swift */; };
 		84AF899F21F5A5DC00EAB8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF899E21F5A5DC00EAB8D0 /* AppDelegate.swift */; };
 		84AF89A121F5A5DC00EAB8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF89A021F5A5DC00EAB8D0 /* ViewController.swift */; };
 		84AF89A421F5A5DC00EAB8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF89A221F5A5DC00EAB8D0 /* Main.storyboard */; };
@@ -14,6 +20,10 @@
 		84AF89A921F5A5DD00EAB8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF89A721F5A5DD00EAB8D0 /* LaunchScreen.storyboard */; };
 		84AF89B421F5A5DD00EAB8D0 /* GramophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF89B321F5A5DD00EAB8D0 /* GramophoneTests.swift */; };
 		84AF89BF21F5A5DD00EAB8D0 /* GramophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF89BE21F5A5DD00EAB8D0 /* GramophoneUITests.swift */; };
+		84AF89CD21F5A82D00EAB8D0 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF89CC21F5A82D00EAB8D0 /* ShareViewController.swift */; };
+		84AF89DA21F5F06F00EAB8D0 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF89D921F5F06F00EAB8D0 /* UIExtensions.swift */; };
+		84AF89E021F6281A00EAB8D0 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF89DF21F6281A00EAB8D0 /* SnapKit.framework */; };
+		A021D480BE2BFDEA12A2025C /* Pods_GramophoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006EB0DF30DFA68977016E24 /* Pods_GramophoneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006EB0DF30DFA68977016E24 /* Pods_GramophoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GramophoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2971C7AFD2484BB4DA1C570C /* Pods-GramophoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramophoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramophoneUITests/Pods-GramophoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B848B92D8B0EEA69BA39A8F /* Pods_GramophoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GramophoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		308CCDF12C458F21C326C501 /* Pods-GramophoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramophoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramophoneTests/Pods-GramophoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		73F0D1C3848A52C857F92347 /* Pods-GramophoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramophoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramophoneTests/Pods-GramophoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8417974021FF53C900477927 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		8443413D21F7125D005C65FF /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/AccountKitStrings.bundle"; sourceTree = "<group>"; };
+		8443413E21F7125D005C65FF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		8443413F21F7125D005C65FF /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
+		8443414021F7125E005C65FF /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKPlacesKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FBSDKPlacesKit.framework"; sourceTree = "<group>"; };
+		8443414121F7125E005C65FF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/Bolts.framework"; sourceTree = "<group>"; };
+		8443414221F7125E005C65FF /* FBSDKMarketingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMarketingKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FBSDKMarketingKit.framework"; sourceTree = "<group>"; };
+		8443414321F7125E005C65FF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		8443414421F7125E005C65FF /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/AccountKit.framework"; sourceTree = "<group>"; };
+		8443414521F7125E005C65FF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.39.1/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		84A0B44121F73C6600E11E3F /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		84A0B44421F73C9500E11E3F /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		84A0B44521F73C9500E11E3F /* WalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		84A0B44621F73C9500E11E3F /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		84AF899B21F5A5DC00EAB8D0 /* Gramophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gramophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AF899E21F5A5DC00EAB8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AF89A021F5A5DC00EAB8D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +76,14 @@
 		84AF89BA21F5A5DD00EAB8D0 /* GramophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GramophoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AF89BE21F5A5DD00EAB8D0 /* GramophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramophoneUITests.swift; sourceTree = "<group>"; };
 		84AF89C021F5A5DD00EAB8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AF89CC21F5A82D00EAB8D0 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		84AF89D921F5F06F00EAB8D0 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		84AF89DB21F6204300EAB8D0 /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF89DF21F6281A00EAB8D0 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ACA78B1E219A07E3D8795A /* Pods-Gramophone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gramophone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gramophone/Pods-Gramophone.release.xcconfig"; sourceTree = "<group>"; };
+		D5BFB059E6DD3445AB6B2C70 /* Pods_Gramophone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gramophone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0966D6175981EABD573B52 /* Pods-GramophoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramophoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramophoneUITests/Pods-GramophoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6C10438057F42A36E3B350 /* Pods-Gramophone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gramophone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gramophone/Pods-Gramophone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AF89E021F6281A00EAB8D0 /* SnapKit.framework in Frameworks */,
+				117392B84A57CF7069E9F3D3 /* Pods_Gramophone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A053D78AA7F659C65CCF365 /* Pods_GramophoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A021D480BE2BFDEA12A2025C /* Pods_GramophoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70DA7DF09E755182F8340BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8443414421F7125E005C65FF /* AccountKit.framework */,
+				8443413D21F7125D005C65FF /* AccountKitStrings.bundle */,
+				8443414121F7125E005C65FF /* Bolts.framework */,
+				8443413F21F7125D005C65FF /* FacebookSDKStrings.bundle */,
+				8443413E21F7125D005C65FF /* FBSDKCoreKit.framework */,
+				8443414321F7125E005C65FF /* FBSDKLoginKit.framework */,
+				8443414221F7125E005C65FF /* FBSDKMarketingKit.framework */,
+				8443414021F7125E005C65FF /* FBSDKPlacesKit.framework */,
+				8443414521F7125E005C65FF /* FBSDKShareKit.framework */,
+				84AF89DF21F6281A00EAB8D0 /* SnapKit.framework */,
+				84AF89DB21F6204300EAB8D0 /* LiquidFloatingActionButton.framework */,
+				D5BFB059E6DD3445AB6B2C70 /* Pods_Gramophone.framework */,
+				2B848B92D8B0EEA69BA39A8F /* Pods_GramophoneTests.framework */,
+				006EB0DF30DFA68977016E24 /* Pods_GramophoneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A0B44321F73C7D00E11E3F /* Walkthrought */ = {
+			isa = PBXGroup;
+			children = (
+				84A0B44621F73C9500E11E3F /* WalkthroughContentViewController.swift */,
+				84A0B44421F73C9500E11E3F /* WalkthroughPageViewController.swift */,
+				84A0B44521F73C9500E11E3F /* WalkthroughViewController.swift */,
+			);
+			path = Walkthrought;
+			sourceTree = "<group>";
+		};
 		84AF899221F5A5DC00EAB8D0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,8 @@
 				84AF89B221F5A5DD00EAB8D0 /* GramophoneTests */,
 				84AF89BD21F5A5DD00EAB8D0 /* GramophoneUITests */,
 				84AF899C21F5A5DC00EAB8D0 /* Products */,
+				F0E8FC5DA35EFFE7D737A33F /* Pods */,
+				70DA7DF09E755182F8340BC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +171,14 @@
 		84AF899D21F5A5DC00EAB8D0 /* Gramophone */ = {
 			isa = PBXGroup;
 			children = (
+				84A0B44321F73C7D00E11E3F /* Walkthrought */,
+				84AF89D821F5F05900EAB8D0 /* Extensions */,
 				84AF899E21F5A5DC00EAB8D0 /* AppDelegate.swift */,
-				84AF89A021F5A5DC00EAB8D0 /* ViewController.swift */,
+				8417974021FF53C900477927 /* Header.h */,
+				84AF89CE21F5C8A000EAB8D0 /* FeedScreed */,
+				84AF89CC21F5A82D00EAB8D0 /* ShareViewController.swift */,
 				84AF89A221F5A5DC00EAB8D0 /* Main.storyboard */,
+				84A0B44121F73C6600E11E3F /* Onboarding.storyboard */,
 				84AF89A521F5A5DD00EAB8D0 /* Assets.xcassets */,
 				84AF89A721F5A5DD00EAB8D0 /* LaunchScreen.storyboard */,
 				84AF89AA21F5A5DD00EAB8D0 /* Info.plist */,
@@ -125,6 +204,35 @@
 			path = GramophoneUITests;
 			sourceTree = "<group>";
 		};
+		84AF89CE21F5C8A000EAB8D0 /* FeedScreed */ = {
+			isa = PBXGroup;
+			children = (
+				84AF89A021F5A5DC00EAB8D0 /* ViewController.swift */,
+			);
+			path = FeedScreed;
+			sourceTree = "<group>";
+		};
+		84AF89D821F5F05900EAB8D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84AF89D921F5F06F00EAB8D0 /* UIExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0E8FC5DA35EFFE7D737A33F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C10438057F42A36E3B350 /* Pods-Gramophone.debug.xcconfig */,
+				A4ACA78B1E219A07E3D8795A /* Pods-Gramophone.release.xcconfig */,
+				73F0D1C3848A52C857F92347 /* Pods-GramophoneTests.debug.xcconfig */,
+				308CCDF12C458F21C326C501 /* Pods-GramophoneTests.release.xcconfig */,
+				DD0966D6175981EABD573B52 /* Pods-GramophoneUITests.debug.xcconfig */,
+				2971C7AFD2484BB4DA1C570C /* Pods-GramophoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AF89C321F5A5DD00EAB8D0 /* Build configuration list for PBXNativeTarget "Gramophone" */;
 			buildPhases = (
+				B6C84294799EBBA44FCE99A3 /* [CP] Check Pods Manifest.lock */,
 				84AF899721F5A5DC00EAB8D0 /* Sources */,
 				84AF899821F5A5DC00EAB8D0 /* Frameworks */,
 				84AF899921F5A5DC00EAB8D0 /* Resources */,
+				347820A85A902FFCE5D91C61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AF89C621F5A5DD00EAB8D0 /* Build configuration list for PBXNativeTarget "GramophoneTests" */;
 			buildPhases = (
+				8DD2A8F81671F59397E33FB6 /* [CP] Check Pods Manifest.lock */,
 				84AF89AB21F5A5DD00EAB8D0 /* Sources */,
 				84AF89AC21F5A5DD00EAB8D0 /* Frameworks */,
 				84AF89AD21F5A5DD00EAB8D0 /* Resources */,
@@ -167,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AF89C921F5A5DD00EAB8D0 /* Build configuration list for PBXNativeTarget "GramophoneUITests" */;
 			buildPhases = (
+				CA1CEF924F32026B94ACD899 /* [CP] Check Pods Manifest.lock */,
 				84AF89B621F5A5DD00EAB8D0 /* Sources */,
 				84AF89B721F5A5DD00EAB8D0 /* Frameworks */,
 				84AF89B821F5A5DD00EAB8D0 /* Resources */,
@@ -232,6 +344,7 @@
 				84AF89A921F5A5DD00EAB8D0 /* LaunchScreen.storyboard in Resources */,
 				84AF89A621F5A5DD00EAB8D0 /* Assets.xcassets in Resources */,
 				84AF89A421F5A5DC00EAB8D0 /* Main.storyboard in Resources */,
+				84A0B44221F73C6600E11E3F /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +364,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		347820A85A902FFCE5D91C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gramophone/Pods-Gramophone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKPlacesKit/FBSDKPlacesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
+				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LiquidFloatingActionButton/LiquidFloatingActionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKPlacesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiquidFloatingActionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gramophone/Pods-Gramophone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD2A8F81671F59397E33FB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GramophoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C84294799EBBA44FCE99A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gramophone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1CEF924F32026B94ACD899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GramophoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AF899721F5A5DC00EAB8D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AF89CD21F5A82D00EAB8D0 /* ShareViewController.swift in Sources */,
+				84A0B44721F73C9500E11E3F /* WalkthroughPageViewController.swift in Sources */,
+				84AF89DA21F5F06F00EAB8D0 /* UIExtensions.swift in Sources */,
+				84A0B44921F73C9500E11E3F /* WalkthroughContentViewController.swift in Sources */,
 				84AF89A121F5A5DC00EAB8D0 /* ViewController.swift in Sources */,
 				84AF899F21F5A5DC00EAB8D0 /* AppDelegate.swift in Sources */,
+				84A0B44821F73C9500E11E3F /* WalkthroughViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +653,7 @@
 		};
 		84AF89C421F5A5DD00EAB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6C10438057F42A36E3B350 /* Pods-Gramophone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +672,7 @@
 		};
 		84AF89C521F5A5DD00EAB8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4ACA78B1E219A07E3D8795A /* Pods-Gramophone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +691,7 @@
 		};
 		84AF89C721F5A5DD00EAB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F0D1C3848A52C857F92347 /* Pods-GramophoneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +713,7 @@
 		};
 		84AF89C821F5A5DD00EAB8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308CCDF12C458F21C326C501 /* Pods-GramophoneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +735,7 @@
 		};
 		84AF89CA21F5A5DD00EAB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0966D6175981EABD573B52 /* Pods-GramophoneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +756,7 @@
 		};
 		84AF89CB21F5A5DD00EAB8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2971C7AFD2484BB4DA1C570C /* Pods-GramophoneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
